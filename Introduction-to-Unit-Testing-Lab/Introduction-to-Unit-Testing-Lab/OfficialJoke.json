@@ -1,0 +1,62 @@
+[
+    {
+        "id": 380,
+        "type": "programming",
+        "setup": "There are 10 kinds of people in this world.",
+        "punchline": "Those who understand binary, those who don't, and those who weren't expecting a base 3 joke."
+    },
+    {
+        "id": 382,
+        "type": "programming",
+        "setup": "What did the router say to the doctor?",
+        "punchline": "It hurts when IP."
+    },
+    {
+        "id": 23,
+        "type": "programming",
+        "setup": "Why do programmers always mix up Halloween and Christmas?",
+        "punchline": "Because Oct 31 == Dec 25"
+    },
+    {
+        "id": 24,
+        "type": "programming",
+        "setup": "A SQL query walks into a bar, walks up to two tables and asks...",
+        "punchline": "'Can I join you?'"
+    },
+    {
+        "id": 25,
+        "type": "programming",
+        "setup": "How many programmers does it take to change a lightbulb?",
+        "punchline": "None that's a hardware problem"
+    },
+    {
+        "id": 56,
+        "type": "programming",
+        "setup": "How do you check if a webpage is HTML5?",
+        "punchline": "Try it out on Internet Explorer"
+    },
+    {
+        "id": 17,
+        "type": "programming",
+        "setup": "Where do programmers like to hangout?",
+        "punchline": "The Foo Bar."
+    },
+    {
+        "id": 28,
+        "type": "programming",
+        "setup": "To understand what recursion is...",
+        "punchline": "You must first understand what recursion is"
+    },
+    {
+        "id": 29,
+        "type": "programming",
+        "setup": "There are 10 types of people in this world...",
+        "punchline": "Those who understand binary and those who don't"
+    },
+    {
+        "id": 33,
+        "type": "programming",
+        "setup": "Which song would an exception sing?",
+        "punchline": "Can't catch me - Avicii"
+    }
+]

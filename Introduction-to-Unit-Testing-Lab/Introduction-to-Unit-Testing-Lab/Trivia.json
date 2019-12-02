@@ -1,0 +1,123 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "Entertainment%3A%20Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who%20wrote%20and%20directed%20the%201986%20film%20%27Platoon%27%3F",
+            "correct_answer": "Oliver%20Stone",
+            "incorrect_answers": [
+                "Francis%20Ford%20Coppola",
+                "Stanley%20Kubrick",
+                "Michael%20Cimino"
+            ]
+        },
+        {
+            "category": "General%20Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which%20essential%20condiment%20is%20also%20known%20as%20Japanese%20horseradish%3F",
+            "correct_answer": "Wasabi%20",
+            "incorrect_answers": [
+                "Mentsuyu",
+                "Karashi",
+                "Ponzu"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The%20land%20of%20Gotland%20is%20located%20in%20which%20European%20country%3F",
+            "correct_answer": "Sweden",
+            "incorrect_answers": [
+                "Denmark",
+                "Norway",
+                "Germany"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Video%20Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How%20many%20classes%20are%20there%20in%20Team%20Fortress%202%3F",
+            "correct_answer": "9",
+            "incorrect_answers": [
+                "10",
+                "8",
+                "7"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How%20many%20countries%20does%20the%20United%20States%20share%20a%20land%20border%20with%3F",
+            "correct_answer": "2",
+            "incorrect_answers": [
+                "1",
+                "3",
+                "4"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Film",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "Joan%20Cusack%20starred%20in%20the%202009%20disaster%20movie%2C%20%222012%22.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In%20the%20novel%20%22Lord%20of%20the%20Rings%22%2C%20how%20many%20rings%20of%20power%20were%20given%20to%20the%20race%20of%20man%3F",
+            "correct_answer": "9",
+            "incorrect_answers": [
+                "5",
+                "11",
+                "13"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Television",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In%20%22Breaking%20Bad%22%2C%20Walter%20White%20is%20a%20high%20school%20teacher%20diagnosed%20with%20which%20form%20of%20cancer%3F",
+            "correct_answer": "Lung%20Cancer",
+            "incorrect_answers": [
+                "Prostate%20Cancer",
+                "Brain%20Cancer",
+                "Testicular%20Cancer"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Video%20Games",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In%20which%20mall%20does%20%22Dead%20Rising%22%20take%20place%3F",
+            "correct_answer": "Willamette%20Parkview%20Mall",
+            "incorrect_answers": [
+                "Liberty%20Mall",
+                "Twin%20Pines%20Mall",
+                "Central%20Square%20Shopping%20Center"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who%20was%20the%20longest-serving%20senator%20in%20US%20history%2C%20serving%20from%201959%20to%202010%3F",
+            "correct_answer": "Robert%20Byrd",
+            "incorrect_answers": [
+                "Daniel%20Inouye",
+                "Strom%20Thurmond",
+                "Joe%20Biden"
+            ]
+        }
+    ]
+}

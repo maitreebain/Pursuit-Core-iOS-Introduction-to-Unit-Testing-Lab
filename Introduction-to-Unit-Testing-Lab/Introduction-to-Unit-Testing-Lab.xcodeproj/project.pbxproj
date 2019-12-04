@@ -21,6 +21,7 @@
 		807EE0F32398620F00F9649F /* OfficialJoke.json in Resources */ = {isa = PBXBuildFile; fileRef = 803AF5EF2395B3D700F1D773 /* OfficialJoke.json */; };
 		807EE0F42398627B00F9649F /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D465A223984F0F005FEA2B /* Bundle+Extension.swift */; };
 		807EE0F52398628C00F9649F /* OfficialJokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803AF5D12395B36200F1D773 /* OfficialJokeController.swift */; };
+		807EE0F7239866AF00F9649F /* StarWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807EE0F6239866AF00F9649F /* StarWarsTests.swift */; };
 		80D465A523985236005FEA2B /* TriviaDataLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D465A423985236005FEA2B /* TriviaDataLoad.swift */; };
 		80D465A8239854FD005FEA2B /* JokesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D465A7239854FD005FEA2B /* JokesTests.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		8066B1B22395B9DD0047A77F /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
 		8066B1B42395BA5E0047A77F /* OfficialJokeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficialJokeData.swift; sourceTree = "<group>"; };
 		8066B1B62395BAC10047A77F /* StarWarsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsData.swift; sourceTree = "<group>"; };
+		807EE0F6239866AF00F9649F /* StarWarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsTests.swift; sourceTree = "<group>"; };
 		80D465A223984F0F005FEA2B /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		80D465A423985236005FEA2B /* TriviaDataLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaDataLoad.swift; sourceTree = "<group>"; };
 		80D465A7239854FD005FEA2B /* JokesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesTests.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				80D465A7239854FD005FEA2B /* JokesTests.swift */,
+				807EE0F6239866AF00F9649F /* StarWarsTests.swift */,
 				803AF5E62395B36400F1D773 /* Info.plist */,
 			);
 			path = "Introduction-to-Unit-Testing-LabTests";
@@ -246,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807EE0F7239866AF00F9649F /* StarWarsTests.swift in Sources */,
 				80D465A8239854FD005FEA2B /* JokesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

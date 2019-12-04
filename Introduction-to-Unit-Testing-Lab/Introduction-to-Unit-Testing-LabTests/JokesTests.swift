@@ -34,18 +34,18 @@ class JokesTests: XCTestCase {
     
     func testJokePopulation() {
             let jsonData = """
-    [{
-    "id": 73,
-    "type": "programming",
-        "setup": "The punchline often arrives before the set-up.",
-        "punchline": "Do you know the problem with UDP jokes?"
-
+    [
+    {
+        "id": 380,
+        "type": "programming",
+        "setup": "There are 10 kinds of people in this world.",
+        "punchline": "Those who understand binary, those who don't, and those who weren't expecting a base 3 joke."
     },
     {
-        "id": 379,
+        "id": 382,
         "type": "programming",
-        "setup": "A programmer puts two glasses on his bedside table before going to sleep.",
-        "punchline": "A full one, in case he gets thirsty, and an empty one, in case he doesn’t."
+        "setup": "What did the router say to the doctor?",
+        "punchline": "It hurts when IP."
     }]
     """.data(using: .utf8)!
             let expectedJokesCount = 2

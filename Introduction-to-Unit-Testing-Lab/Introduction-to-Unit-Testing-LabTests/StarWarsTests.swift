@@ -35,9 +35,10 @@ class StarWarsTests: XCTestCase {
     
     func testSWPopulation() {
         var data = dataStorage()
-        let firstValue = StarWarsData.getMovieName().first
-        let expectedValue = 
+        let firstTitle = StarWarsData.getMovieName().first?.title
+        let expectedValue = "A New Hope"
         
+        XCTAssertEqual(firstTitle, expectedValue, "\(firstTitle) should be \(expectedValue)")
         
     }
     

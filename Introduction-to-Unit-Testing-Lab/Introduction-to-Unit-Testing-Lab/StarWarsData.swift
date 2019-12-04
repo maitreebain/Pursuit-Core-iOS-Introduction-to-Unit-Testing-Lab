@@ -19,9 +19,10 @@ struct MovieInfo: Codable {
 
 private enum CodingKeys: String, CodingKey {
     case title
-    case episode
+    case episode = "episode_id"
     case openingCrawl = "opening_crawl"
 }
+    
 
 }
 

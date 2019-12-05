@@ -25,23 +25,30 @@ class TriviaDetailController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        randomAns()
         bLabel.text = trivia?.correct_answer.removingPercentEncoding
+        randomAns()
     }
     
     
     func randomAns() {
         
-//repeat while? 
-        for answer in trivia!.incorrect_answers {
+        var varA = ""
+        var varD = ""
+        var varC = ""
         
-            
-                aLabel.text = answer.removingPercentEncoding
-                cLabel.text = answer.removingPercentEncoding
 
-                dLabel.text = answer.removingPercentEncoding
-            
-        }
+        aLabel.text = trivia?.incorrect_answers.randomElement()?.removingPercentEncoding
+        varA.append(contentsOf: aLabel.text!)
+        cLabel.text = trivia?.incorrect_answers.randomElement()?.removingPercentEncoding
+        varC.append(contentsOf: bLabel.text!)
+        dLabel.text = trivia?.incorrect_answers.randomElement()?.removingPercentEncoding
+        varD.append(contentsOf: cLabel.text!)
+
+    
+
 }
+    
+    
+    
     
 }

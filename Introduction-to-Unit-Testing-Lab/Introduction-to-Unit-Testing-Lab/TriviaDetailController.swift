@@ -32,20 +32,16 @@ class TriviaDetailController: UIViewController {
     
     func randomAns() {
         
-        var varA = ""
-        var varD = ""
-        var varC = ""
-        
+        var textArray = Set<String>()
 
         aLabel.text = trivia?.incorrect_answers.randomElement()?.removingPercentEncoding
-        varA.append(contentsOf: aLabel.text!)
+        textArray.insert(aLabel.text!)
         cLabel.text = trivia?.incorrect_answers.randomElement()?.removingPercentEncoding
-        varC.append(contentsOf: bLabel.text!)
+        textArray.insert(cLabel.text!)
         dLabel.text = trivia?.incorrect_answers.randomElement()?.removingPercentEncoding
-        varD.append(contentsOf: cLabel.text!)
+        textArray.insert(dLabel.text!)
 
-    
-
+        
 }
     
     

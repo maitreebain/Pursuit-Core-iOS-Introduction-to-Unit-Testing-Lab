@@ -16,10 +16,12 @@ struct TriviaData: Codable {
     let question: String
     let correct_answer: String
     let incorrect_answers: [String]
+    let difficulty: String
 }
 
 private enum Rename: String, CodingKey {
     case question
+    case difficulty
     case correct = "correct_answer"
     case incorrect = "incorrect_answers"
 }

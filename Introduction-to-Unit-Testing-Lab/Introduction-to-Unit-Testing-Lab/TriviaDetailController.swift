@@ -11,6 +11,8 @@ import UIKit
 
 class TriviaDetailController: UIViewController {
     
+    @IBOutlet weak var answerLabel: UILabel!
+    
     @IBOutlet weak var aLabel: UILabel!
     
     @IBOutlet weak var bLabel: UILabel!
@@ -19,6 +21,13 @@ class TriviaDetailController: UIViewController {
     
     @IBOutlet weak var dLabel: UILabel!
     
+    @IBOutlet weak var aButtonOut: UIButton!
+    
+    @IBOutlet weak var bButtonOut: UIButton!
+    
+    @IBOutlet weak var cButtonOut: UIButton!
+    
+    @IBOutlet weak var dButtonOut: UIButton!
     
     var trivia: TriviaData?
     
@@ -44,11 +53,13 @@ class TriviaDetailController: UIViewController {
             guard trivia!.incorrect_answers.count > 1 else {
                 aLabel.text = answer.removingPercentEncoding
                 textA.append(aLabel.text!)
-                textD = ""
-                textC = ""
                 textArray.append(textA)
                 textArray.append(textD)
                 textArray.append(textC)
+                dLabel.text = textArray[1]
+                cLabel.text = textArray[2]
+                cButtonOut.isHidden = true
+                dButtonOut.isHidden = true
                 return
             }
 
@@ -83,7 +94,37 @@ class TriviaDetailController: UIViewController {
         
 }
     
+    func buttonDisable() {
+        aButtonOut.isEnabled = false
+        bButtonOut.isEnabled = false
+        cButtonOut.isEnabled = false
+        dButtonOut.isEnabled = false
+    }
     
     
     
+    @IBAction func aButton(_ sender: UIButton) {
+        view.backgroundColor = .red
+        answerLabel.text = "Wrong!"
+        buttonDisable()
+
+    }
+    
+    @IBAction func bButton(_ sender: UIButton) {
+        view.backgroundColor = .green
+        answerLabel.text = "Correct!"
+        buttonDisable()
+    }
+    
+    @IBAction func cButton(_ sender: UIButton) {
+        view.backgroundColor = .red
+        answerLabel.text = "Wrong!"
+        buttonDisable()
+    }
+    
+    @IBAction func dButton(_ sender: UIButton) {
+        view.backgroundColor = .red
+        answerLabel.text = "Wrong!"
+        buttonDisable()
+    }
 }

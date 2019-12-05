@@ -59,6 +59,7 @@ extension TriviaViewController: UITableViewDataSource {
         let selectedQuestion = trivia[indexPath.row]
         
         cell.textLabel?.text = selectedQuestion.question.removingPercentEncoding
+        cell.detailTextLabel?.text = selectedQuestion.difficulty.capitalized
         
         return cell
     }

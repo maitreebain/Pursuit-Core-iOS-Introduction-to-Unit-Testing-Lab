@@ -32,13 +32,54 @@ class TriviaDetailController: UIViewController {
     
     func randomAns() {
 
-//        aLabel.text = trivia?.incorrect_answers[0].removingPercentEncoding
-//        cLabel.text = trivia?.incorrect_answers[1].removingPercentEncoding
-//        dLabel.text = trivia?.incorrect_answers[2].removingPercentEncoding
-        
         var counter = 0
-        
-        for 
+        var textA = ""
+        var textD = ""
+        var textC = ""
+        var textArray = [String]()
+      
+
+        for answer in trivia!.incorrect_answers {
+            
+            guard trivia!.incorrect_answers.count > 1 else {
+                aLabel.text = answer.removingPercentEncoding
+                textA.append(aLabel.text!)
+                textD = ""
+                textC = ""
+                textArray.append(textA)
+                textArray.append(textD)
+                textArray.append(textC)
+                return
+            }
+
+            
+            switch counter {
+            case 0:
+                aLabel.text = answer.removingPercentEncoding
+                textA.append(aLabel.text!)
+                textArray.append(textA)
+                counter += 1
+            case 1:
+                dLabel.text = answer.removingPercentEncoding
+                counter += 1
+                textD.append(dLabel.text!)
+                textArray.append(textD)
+            case 2:
+                cLabel.text = answer.removingPercentEncoding
+                counter = 0
+                textC.append(cLabel.text!)
+                textArray.append(textC)
+            default:
+                print("no label")
+            }
+        }
+      
+                textArray.shuffle()
+                aLabel.text = textArray[0]
+                dLabel.text = textArray[1]
+                cLabel.text = textArray[2]
+                     
+
         
 }
     

@@ -31,16 +31,14 @@ class TriviaDetailController: UIViewController {
     
     
     func randomAns() {
+
+//        aLabel.text = trivia?.incorrect_answers[0].removingPercentEncoding
+//        cLabel.text = trivia?.incorrect_answers[1].removingPercentEncoding
+//        dLabel.text = trivia?.incorrect_answers[2].removingPercentEncoding
         
-        var textArray = Set<String>()
-
-        aLabel.text = trivia?.incorrect_answers.randomElement()?.removingPercentEncoding
-        textArray.insert(aLabel.text!)
-        cLabel.text = trivia?.incorrect_answers.randomElement()?.removingPercentEncoding
-        textArray.insert(cLabel.text!)
-        dLabel.text = trivia?.incorrect_answers.randomElement()?.removingPercentEncoding
-        textArray.insert(dLabel.text!)
-
+        var counter = 0
+        
+        for 
         
 }
     

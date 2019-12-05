@@ -14,5 +14,25 @@ struct JokeData: Codable {
     let setup: String
     let punchline: String
     
+    static func getJokesData() -> [JokeData] {
+         var jokes = [JokeData]()
+        
+        guard let fileURL = Bundle.main.url(forResource: "OfficialJoke", withExtension: "json") else {
+            fatalError("no file found")
+        }
+         
+         do {
+            let data = try Data.init(contentsOf: fileURL)
+            
+            let jokesData = try JSONDecoder().decode([JokeData].self, from: data)
+             jokes = jokesData
+             } catch {
+                 fatalError("decoding error:\(error)")
+             }
+     
+         
+         return jokes
+     }
+    
 }
 

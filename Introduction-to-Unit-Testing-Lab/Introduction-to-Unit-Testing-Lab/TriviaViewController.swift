@@ -29,9 +29,17 @@ class TriviaViewController: UIViewController {
     func loadData() {
         trivia = TriviaDataLoad.getTrivia()
     }
-  
-    //replacingoccurances of % from textlabel
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let triviaDetailController = segue.destination as? TriviaDetailController,
+            let indexPath = triviaTableView.indexPathForSelectedRow else {
+                fatalError("no segue found")
+        }
+        let selectedItem = trivia[indexPath.row]
+        
+        triviaDetailController.trivia = selectedItem
+        
+    }
 }
 
 extension TriviaViewController: UITableViewDelegate{

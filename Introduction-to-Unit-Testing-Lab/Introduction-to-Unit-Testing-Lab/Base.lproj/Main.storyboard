@@ -233,10 +233,10 @@
             </objects>
             <point key="canvasLocation" x="1958" y="828"/>
         </scene>
-        <!--View Controller-->
+        <!--Trivia Detail Controller-->
         <scene sceneID="O2r-Sv-ZM2">
             <objects>
-                <viewController id="Rd7-A6-ICj" sceneMemberID="viewController">
+                <viewController id="Rd7-A6-ICj" customClass="TriviaDetailController" customModule="Introduction_to_Unit_Testing_Lab" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d7X-Mr-f02">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -331,6 +331,12 @@
                         <viewLayoutGuide key="safeArea" id="6wD-iM-34J"/>
                     </view>
                     <navigationItem key="navigationItem" id="NU1-Dd-cPX"/>
+                    <connections>
+                        <outlet property="aLabel" destination="xwq-Iw-ECB" id="da2-AC-cAw"/>
+                        <outlet property="bLabel" destination="EHI-hM-pbg" id="n0d-Ck-1qX"/>
+                        <outlet property="cLabel" destination="DWL-jU-M1n" id="PKr-bJ-4b1"/>
+                        <outlet property="dLabel" destination="sHN-0C-fP3" id="EIb-zc-exB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="76F-qr-4gy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

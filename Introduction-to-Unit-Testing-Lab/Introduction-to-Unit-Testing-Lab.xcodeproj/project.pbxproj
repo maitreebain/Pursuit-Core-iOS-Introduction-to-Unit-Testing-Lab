@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		801570B523989FDE00822FEC /* TriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801570B423989FDE00822FEC /* TriviaTests.swift */; };
 		803AF5CE2395B36200F1D773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803AF5CD2395B36200F1D773 /* AppDelegate.swift */; };
 		803AF5D02395B36200F1D773 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803AF5CF2395B36200F1D773 /* SceneDelegate.swift */; };
 		803AF5D52395B36200F1D773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803AF5D32395B36200F1D773 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		801570B423989FDE00822FEC /* TriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaTests.swift; sourceTree = "<group>"; };
 		803AF5CA2395B36200F1D773 /* Introduction-to-Unit-Testing-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Introduction-to-Unit-Testing-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		803AF5CD2395B36200F1D773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		803AF5CF2395B36200F1D773 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			children = (
 				80D465A7239854FD005FEA2B /* JokesTests.swift */,
 				807EE0F6239866AF00F9649F /* StarWarsTests.swift */,
+				801570B423989FDE00822FEC /* TriviaTests.swift */,
 				803AF5E62395B36400F1D773 /* Info.plist */,
 			);
 			path = "Introduction-to-Unit-Testing-LabTests";
@@ -250,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				807EE0F7239866AF00F9649F /* StarWarsTests.swift in Sources */,
+				801570B523989FDE00822FEC /* TriviaTests.swift in Sources */,
 				80D465A8239854FD005FEA2B /* JokesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
